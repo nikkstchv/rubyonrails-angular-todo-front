@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+nav{
+  padding: 1rem;
+  background-color:#3f51b5;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flex-container-col{
+  display: flex;
+  flex-direction: column;
+}
+.project-card{
+  margin-top: 2rem;
+  min-width: 350px;
+}
+.mat-card-title{
+  border-bottom: 1px solid #b3aeae;
+  padding-bottom: 1rem;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #f8f8f8;}
